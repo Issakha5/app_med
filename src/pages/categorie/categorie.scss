@@ -1,0 +1,12 @@
+page-categorie {
+    .back{
+		background-image: url( ../assets/imgs/fond.jpg);
+		background-repeat:no-repeat;
+        background-position:fixed;
+        margin-top: 15%;
+		//background-size:cover;
+    }
+    .scroll .scroll-content{
+        overflow:hidden;
+        }
+}

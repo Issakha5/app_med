@@ -1,0 +1,64 @@
+<ion-content class=" back scroll">
+	<ion-list class="marg">
+
+		<ion-item class="item">
+			<ion-label  color="dark" floating>Prenom:</ion-label>
+			<ion-input type="text" autofocus ></ion-input>
+		</ion-item>
+
+		<ion-item class="item">
+				<ion-label  color="dark" floating>nom:</ion-label>
+				<ion-input type="text"  ></ion-input>
+		</ion-item>
+
+		<ion-item class="item">
+		  <ion-label  color="dark" floating>Username:</ion-label>
+		  <ion-input type="text" ></ion-input>
+		</ion-item>
+
+		<ion-item  class="item">
+		  <ion-label color="dark" floating>Email:</ion-label>
+		  <ion-input type="email" ></ion-input>
+		</ion-item>
+
+		<ion-item  class="item">
+		  <ion-label color="dark" floating>Phone:</ion-label>
+		  <ion-input type="tel" ></ion-input>
+		</ion-item>
+
+		<ion-item  class="item">
+		  <ion-label color="dark" floating>Fonction:</ion-label>
+		  <ion-input type="text" ></ion-input>
+		</ion-item>
+
+		<ion-item  class="item">
+		  <ion-label color="dark" floating>Matricule:</ion-label>
+		  <ion-input type="text" ></ion-input>
+		</ion-item>
+
+		<ion-item  class="item">
+		  <ion-label color="dark" floating>mot de passe:</ion-label>
+		  <ion-input type="password"></ion-input>
+		</ion-item>
+
+		<ion-item  class="item">
+		  <ion-label color="dark" floating>confirmez votre mot de passe:</ion-label>
+		  <ion-input type="password" required></ion-input>
+		</ion-item>
+
+		<ion-item  class="item">
+		<label color="dark" for="hopital" floating>Hopital</label>
+			<select name="hopital" id="hopital">
+				<option value="abas ndao">Abas Ndao</option>
+				<option value="HDJ">Hopital Dalal Jam</option>
+				<option value="FANN">Hopital FANN</option>
+				<option value="Dantec">Hopital Aristic le Dantec</option>
+				<option value="Autre">Autres</option>
+			</select>
+		</ion-item>
+
+	</ion-list>
+	<div text-center>
+		<button class="btn" ion-button color= blue round outline (click)="connexion()">entrer</button>
+	</div>
+</ion-content>
